@@ -514,14 +514,7 @@ footer {
     background: #343434;
     color: #E1BBC9;
 }
-/* .contact-list {
-    list-style-type: none;
-    padding: 0;
-}
-.contact-list a {
-    padding: 15px;
-    display: inline-block;
-} */
+
 .contact-list ul {
   position: absolute;
   top: 50%;

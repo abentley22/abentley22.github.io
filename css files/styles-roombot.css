@@ -1,22 +1,4 @@
-/*
-COLOR PALETTE
-https://urldefense.com/v3/__https://coolors.co/222222-ffffff-1c5d99-639fab-bbcde5__;!!K7aURHP0pg!Y90UVIT1WQxQrY2BBA-IfBzxGTQ5XdqtroZO6Z7vv6KimPygBK7EEv9XWdmXFHFsomViKLRtGZnMFdn72VkQ7hKrJV5DBASbDyVh$ 
-    #222222 - eerie black
-    #FFFFFF - white
-    #1C5D99 - lapis lazuli - blue
-    #639FAB - moonstone - teal
-    #BBCDE5 - powder blue - baby blue
 
-FONT FAMILY
-font-family: 'IBM Plex Mono', monospace;
-font-family: 'IBM Plex Sans', sans-serif;
-font-family: 'IBM Plex Sans Condensed', sans-serif;
-font-family: 'Merriweather', serif;
-font-family: 'Merriweather Sans', sans-serif;
-font-family: 'Roboto', sans-serif;
-font-family: 'Roboto Mono', monospace;
-font-family: 'Roboto Slab', serif;
-font-family: 'VT323', monospace;
 /* --------------------  Global Styles  ----------------*/
 html {
     box-sizing: border-box;

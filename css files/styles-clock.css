@@ -1,5 +1,4 @@
 
-
 /* --------------------  Global Styles  ----------------*/
 html {
     box-sizing: border-box;
@@ -95,21 +94,11 @@ p {
 .white-txt {
     color: #D36582;
 }
-/* .hover-white-bg:hover {
-    background-color: rgba(211, 101, 130, 80%);
-} */
+
 .hover-pointer-cursor:hover {
     cursor: pointer;
 }
-/* .hover-fade-animation {
-    transform: perspective(1px) translateZ(0);
-    transition-duration: 0.3s;
-    transition-property: color, background-color;
-}
-.hover-button-animation {
-    transition-duration: 0.3s;
-    transition-property: color, background-color, box-shadow;
-} */
+
 .hover-white-bg:hover {
     transform: translate3d(0, -10px, 22px);
     color: #D36582;
@@ -178,14 +167,7 @@ footer {
     background: #343434;
     color: #E1BBC9;
 }
-/* .contact-list {
-    list-style-type: none;
-    padding: 0;
-}
-.contact-list a {
-    padding: 15px;
-    display: inline-block;
-} */
+
 .contact-list ul {
   position: absolute;
   top: 50%;

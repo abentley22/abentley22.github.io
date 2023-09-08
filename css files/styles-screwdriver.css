@@ -1,34 +1,3 @@
-/*
-COLOR PALETTE
-#454ADE - iris
-#1B1F3B - space cadet - dark blue
-#B14AED - electric purple
-#C874D9 - french mauve - lighter purple
-#E1BBC9 - fairy tale - pink/crimson
-#343434 - dark gray - almost black
-#6E0D25 - claret - burgundy 
-#FFFFB3 - cream
-#DCAB6B - earth yellow - orange peachish
-#774E24 - sepia - brown
-#6A381F - seal brown 
-#2B59C3 - tang blue
-#253C78 - yale blue
-#D36582 - blush
-#FFEECF - papaya whip
-#C9A690 - tan
-
-FONT FAMILY
-font-family: 'Cormorant Garamond', serif;
-font-family: 'Eczar', serif;
-font-family: 'Gentium Plus', serif;
-font-family: 'Libre Baskerville', serif;
-font-family: 'Libre Franklin', sans-serif;
-font-family: 'Proza Libre', sans-serif;
-font-family: 'Rubik', sans-serif;
-font-family: 'Taviraj', serif;
-font-family: 'Trirong', serif;
-font-family: 'Work Sans', sans-serif;
-*/
 
 /* --------------------  Global Styles  ----------------*/
 html {
@@ -125,9 +94,7 @@ p {
 .white-txt {
     color: #504B43;
 }
-/* .hover-white-bg:hover {
-    background-color: rgba(80, 75, 66, 80%);
-} */
+
 .hover-pointer-cursor:hover {
     cursor: pointer;
 }
@@ -135,15 +102,7 @@ p {
     transform: translate3d(0, -10px, 22px);
     color: #a4e298;
 }
-/* .hover-fade-animation {
-    transform: perspective(1px) translateZ(0);
-    transition-duration: 0.3s;
-    transition-property: color, background-color;
-}
-.hover-button-animation {
-    transition-duration: 0.3s;
-    transition-property: color, background-color, box-shadow;
-} */
+
 .no-margin {
     margin: 0;
 }
@@ -220,14 +179,7 @@ footer {
     background: #343434;
     color: #E1BBC9;
 }
-/* .contact-list {
-    list-style-type: none;
-    padding: 0;
-}
-.contact-list a {
-    padding: 15px;
-    display: inline-block;
-} */
+
 .contact-list ul {
   position: absolute;
   top: 50%;

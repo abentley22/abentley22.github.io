@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>RoomBot Project, Alaina Bentley</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital@0;1&family=IBM+Plex+Sans&family=IBM+Plex+Sans+Condensed&family=Merriweather&family=Merriweather+Sans&family=Roboto&family=Roboto+Mono&family=Roboto+Slab&family=VT323&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Eczar&family=Gentium+Plus&family=Libre+Baskerville&family=Libre+Franklin&family=Proza+Libre&family=Rubik&family=Taviraj&family=Trirong&family=Work+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../css files/styles-brb.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <main>
+      <nav id="navigation-bar" class="box-shadow fixed dark-blue-bg">
+        <ul class="no-margin pleft0 display-flex">
+          <li class="white-txt selected-item">Alaina Bentley</li>
+          <a href="index.html"><li class="white-txt hover-white-bg hover-blue-txt hover-pointer-cursor hover-fade-animation">Home</li></a>
+          <a href="#contact"><li class="white-txt hover-white-bg hover-blue-txt hover-pointer-cursor hover-fade-animation">Contact</li></a>
+        </ul>
+      </nav>
+        <header class="header">
+          <div class="content-wrap">
+            <h1>The Big Red Battleship</h1>
+            <h3>This was an individual project created as an assignment in Aerospace Vehicles Trajectory and Performance (MECH 519) led by Dr. Walter Thompson, with the goal of designing a launch vehicle from the ground up.</h3>
+            <img src="../pictures/Big Red Battleship.png" alt="BRB SolidWorks Model" title="BRB 1">
+            <img src="../pictures/BigRedBattleship2.png" alt="BRB SolidWorks Engines" title="BRB 2">
+          </div>
+        </header>
+        <section class="about">
+          <div class="content-wrap">
+            <h3>About the Assignment</h3>
+            <img src="../pictures/BRB Labeled.png" alt="BRB SolidWorks Labeled" title="Labeled BRB">
+            <p>The Professor for this course was Dr. Walter Thompson, who worked for many years with United Launch Alliance, and now works as a consultant for many other companies who want to design rockets.</p>
+            <p>This was a semester long project done in the Spring of 2024. Students were given the assignment to choose a final orbit goal (I chose to go to a GEO orbit with a final circular orbital radius of 42164 km at 0 deg inclination and desired payload of 7000 kg). Then, propellants were chosen, tanks designed, engined picked, and all other details were designed. The rocket must be able to also go to a GTO orbit with a final orbital altitude of 200 x 35786 km at 27 deg inclination with desired payload of 6000 kg.</p>
+            <p>The assignment overall outlined designing a rocket of our choice, using a lot of research and the supplied class materials, to get to the orbit we wanted. After going through initial design choices, we were tasked with using STK to optimize the velocities and burn times, as well as the launch azimuth and overall masses needed. We then had to write up a lengthy report explaining everything.</p>
+          </div>
+          </section>
+        <section class="goal">
+          <div class="content-wrap">
+          <h3>The Goal</h3>
+          <p>At the end of the semester, each student met with the professor in a 1-on-1 meeting to present their rocket. For me, I met with Dr. Thompson and discussed some of the issues I had with STK modeling and the interesting burn times for each stage. We had to turn in our powerpoint slides, which are displayed throughout this page, as well as the final report, and the zipped STK scenario file. My goal for this project was to get a decent grade (I got a 98%) and learn a lot about rockets, because my upcoming career may or may not have some correspondence with this class.</p>
+          <figure>
+            <img src="../pictures/BRB Final Orbits.png" alt="Final Orbits" title="Final Orbits">
+            <a href="../pictures/BRB Final Orbits.png" target="_blank"><figcaption>Final Mission Plots in STK</figcaption></a>
+          </figure>
+          </div>
+        </section>
+        <section class="experience">
+          <div class="content-wrap">
+          <h3>My Experience and Process Summary</h3>
+          <p></p>
+          <p>This was a two stage rocket, designed to launch from Hanalei Bay, HI and go to a circular parking orbit with 200 km altitude at 28.6 deg inclination, then burn into its final orbit (GTO or GEO). 
+            <ul>
+              <li>The first stage utilized an NK-33 engine, which is a Russian engine. It uses five of these to give the desired liftoff T/W of 1.28 G's. The fuel/oxidizer was RP-1/LOX, which gave a propellant ratio of 2.29. If you look at the tanks for stage 1, their length reflects this ratio. </li>
+              <li>The second stage utilized a singular RS-25 engine, since this engine alone gave us an ignition T/W of 2.22 G's, which was much higher than necessary. The fuel/oxidizer was LH2/LOX,which has a propellant ratio of 5. This is reflected in the stage 2 tanks.</li>
+              <li>The payload fairing used was copied mostly from the Atlas V fairing, because the diameter worked well with the rest of the BRB. The payload adapter was taken off the Delta IV to give us some wiggle room in our adapter diameter.</li>
+            </ul>
+          </p>
+          <p>I had an absolute blast working on this project, although it was very extensive. STK gave me many headaches when trying to model finite burns and getting Astrogator to target the orbital elements properly. Once I got the advice to seed the velocities for each burn, then run a nominal sequence, and then check the MCS summary, then adjust the seeds and repeat, the process went smooth. I was probably done with the modeling in around 3 hours. But until that advice was given, I was spending countless hours trying to run the IPOPT Optimizer without convergence. It was very irritating, but I learned so so much about STK, so I can't complain too much.</p>
+          <p>The Big Red Battleship Details are shown below, including the masses, lengths, burn time, and then the final "performance" which just means how much payload it was able to achieve in each mission.</p>
+            <figure>
+              <img src="../pictures/BRB PPT 1.png" alt="BRB Design Details" title="Design Details">
+              <figcaption>Big Red Battleship Details</figcaption>
+            </figure>
+        </section>
+        <section class="result">
+        <div class="content-wrap">
+          <h3>The Result</h3>
+            <p>Although I lost 1.6% from my final grade (24.6/25 points), this project was a major success. I learned so much, and Dr. Thompson appreciated my attention to detail in STK and my creativity in taking inspiration for creating my fictitious rocket and basing it off of Lilo and Stitch (iykyk).</p>
+            <p>Below you can view the project report, which is lengthy, but it has a lot more information not covered in this page. You can see the launch details, why it was designed the way it was, and the final results- including the MCS Summaries for each mission. You can also download the Excel Spreadsheet I made throughout the course to help me analyze and predict orbital elements.</p>
+            <div class="pdf">
+              <a href="../PDFs/BRB Project Report.pdf" target="_blank" download>Download Project Final Report</a>
+              <a href="../PDFs/Earth Orbit Program_BentleyExam2.xlsx" target="_blank" download>Download the Excel Spreadsheet</a>
+            </div>
+            <figure>
+              <img src="../pictures/BRB PPT 2.png" alt="BRB Design Details" title="Design Details">
+              <figcaption>Big Red Battleship Extra Details</figcaption>
+            </figure>
+          </div>
+        </section>
+        <section class="navigate">
+          <div class="content-wrap">
+            <div class="divider">
+          <h3>Navigate to Another Page!</h3>
+            <a href="index.html">Back to Main Page</a>
+            <a href="clock.html">Go to Clock Project</a>
+            <a href="screwdriver.html">Go to Screwdriver Project</a>
+            <a href="trivet.html">Go to Trivet Project</a>
+            <a href="roombot.html">Go to RoomBot Project</a>
+            <a href="fsae.html">Go to FSAE Project</a>
+            </div>
+            </div>
+        </section>
+        <footer>
+          <div id="contact" class="content-wrap">
+            <h2>Let's Keep in Touch!</h2>
+            <ul class="contact-list">
+                <li>
+                  <a id="email" href=mailto:bentley.alaina22@gmail.com>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  <i class="fa fa-google" aria-hidden="true"></i>
+                </a></li>
+  
+                <li>
+                <a id="resume" href="../PDFs/AlainaBentley_MECH_May20241.pdf" target="_blank" download>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <b>Resume</b>
+                </a></li>
+  
+                <li>
+                  <a id="linkedin" href="https://urldefense.com/v3/__https://www.linkedin.com/in/alaina-bentley-405568256/__;!!K7aURHP0pg!Zb2FhDcmonqbwkIcQmdbIYoPXvyfzVj2Zp084jvHi5MddRi6Y3bk_fYsdENcNR6DaxjcK_-33pB8HV047zOYPY4gdPCg47MOuup0$" target="_blank">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                </a></li>
+  
+                <li>
+                  <a id="facebook" href="https://urldefense.com/v3/__https://www.facebook.com/alainabentley22__;!!K7aURHP0pg!Zb2FhDcmonqbwkIcQmdbIYoPXvyfzVj2Zp084jvHi5MddRi6Y3bk_fYsdENcNR6DaxjcK_-33pB8HV047zOYPY4gdPCg40YZrnO7$" target="_blank">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a></li>
+  
+              <li>
+                <a id="instagram" href="https://urldefense.com/v3/__https://www.instagram.com/a_bentley20/__;!!K7aURHP0pg!Zb2FhDcmonqbwkIcQmdbIYoPXvyfzVj2Zp084jvHi5MddRi6Y3bk_fYsdENcNR6DaxjcK_-33pB8HV047zOYPY4gdPCg4--0GkXy$" target="_blank">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <i class="fa fa-instagram" aria-hidden="true"></i>
+              </a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+        </main>
+      </body>
+    </html>

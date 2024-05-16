@@ -1,4 +1,22 @@
+/*
+COLOR PALETTE
+https://urldefense.com/v3/__https://coolors.co/222222-ffffff-1c5d99-639fab-bbcde5__;!!K7aURHP0pg!Y90UVIT1WQxQrY2BBA-IfBzxGTQ5XdqtroZO6Z7vv6KimPygBK7EEv9XWdmXFHFsomViKLRtGZnMFdn72VkQ7hKrJV5DBASbDyVh$ 
+    #222222 - eerie black
+    #FFFFFF - white
+    #1C5D99 - lapis lazuli - blue
+    #639FAB - moonstone - teal
+    #BBCDE5 - powder blue - baby blue
 
+FONT FAMILY
+font-family: 'IBM Plex Mono', monospace;
+font-family: 'IBM Plex Sans', sans-serif;
+font-family: 'IBM Plex Sans Condensed', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Merriweather Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Roboto Slab', serif;
+font-family: 'VT323', monospace;
 /* --------------------  Global Styles  ----------------*/
 html {
     box-sizing: border-box;
@@ -85,7 +103,9 @@ h3 {
 .white-txt {
     color: #FFFFFF;
 }
-
+/* .hover-white-bg:hover {
+    background-color: rgba(255, 255, 255, 50%);
+} */
 .hover-white-bg:hover {
     transform: translate3d(0, -10px, 22px);
     color: #D36582;
@@ -93,7 +113,15 @@ h3 {
 .hover-pointer-cursor:hover {
     cursor: pointer;
 }
-
+/* .hover-fade-animation {
+    transform: perspective(1px) translateZ(0);
+    transition-duration: 0.3s;
+    transition-property: color, background-color;
+}
+.hover-button-animation {
+    transition-duration: 0.3s;
+    transition-property: color, background-color, box-shadow;
+} */
 .no-margin {
     margin: 0;
 }
@@ -105,7 +133,6 @@ header {
     background: #1C5D99;
     color: #FFFFFF;
 }
-
 /* --------------------  About  ----------------*/
 .about {
     background: #639FAB;
@@ -223,11 +250,27 @@ h3 {
 .navigate a:hover {
     background: rgba(34, 34, 34, 80%);
 }
+.divider {
+    border-bottom: 1px dashed #343434;
+    padding: 25px 0;
+}
+.divider:last-of-type {
+    border-bottom: none;
+    text-align: center;
+}
 /* --------------------  Contact List  ----------------*/
 footer {
     background: #343434;
     color: #E1BBC9;
 }
+/* .contact-list {
+    list-style-type: none;
+    padding: 0;
+}
+.contact-list a {
+    padding: 15px;
+    display: inline-block;
+} */
 .contact-list ul {
   position: absolute;
   top: 50%;
@@ -276,7 +319,7 @@ footer {
 .contact-list li a span:nth-child(1), .contact-list li a span:nth-child(3), .contact-list li a span:nth-child(5) {
   width: 100%;
   height: 3px;
-background: #639FAB;
+  background: #D36582; 
 }
 
 .contact-list li a span:nth-child(1), .contact-list li a span:nth-child(5) {

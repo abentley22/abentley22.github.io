@@ -110,7 +110,8 @@ h3 {
 .slider h1 {
   font-family: "Josefin Sans", sans-serif;
   font-size: 6vw;
-  margin: 0;
+  margin: 1px;
+    white-space: nowrap;
   padding-bottom: 0.5rem;
   letter-spacing: 0.5rem;
   color: #E1BBC9;
@@ -366,7 +367,7 @@ h3.span {
 }
 
 .nav1 img {
-  width: 400px;
+  /* width: 400px; */
   margin: 30px;
   border: 5px solid rgb(141, 141, 141);
 }
@@ -752,7 +753,7 @@ footer {
   background: #c32aa3;
 }
 
-/* --------------------  Responsive  ----------------*/
+/* --------------------  Responsive  ------------------*/
 @media screen and (min-width: 750px) {
   .project-item img {
     float: left;
@@ -774,6 +775,9 @@ footer {
   footer {
     text-align: center;
   }
+.nav1 img {
+  width: 400px;
+}
 }
 
 @media screen and (max-width: 749px) {
@@ -790,4 +794,18 @@ footer {
   .contact-list a {
     padding: 5px;
   }
+.nav1 img {
+  width: 40%;
+  margin: 30px;
 }
+
+    .nav1 h1,
+    .slider h1 {
+      font-family: "Josefin Sans", sans-serif;
+      font-size: 3.5vw;
+      margin: 1px;
+      white-space: nowrap;
+      padding-bottom: 0.5rem;
+      letter-spacing: 0.5rem;
+    }
+    }

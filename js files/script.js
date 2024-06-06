@@ -15,8 +15,7 @@ function smoothScroll(e) {
 
     if (targetElement) {
         targetElement.scrollIntoView({
-            behavior: 'smooth',
-            block: 'end',
+          behavior: "smooth",
         });
     }
 }

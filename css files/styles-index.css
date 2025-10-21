@@ -854,11 +854,25 @@ footer {
 }
 
 /* --------------------  Responsive  ------------------*/
+/* @media screen and (min-width: 1250px) {
+  .nav1 img {
+    width: auto;
+    height: auto;
+  }
+  h1 {
+    font-size: 4vw;
+  }
+
+} */
+
 @media screen and (min-width: 750px) {
   .project-item img {
     float: left;
     margin-right: 20px;
   }
+  /* .projects .btn {
+    display: inline-block;
+  } */
 
   .job-item {
     display: grid;
@@ -878,6 +892,17 @@ footer {
 .nav1 img {
   width: 400px;
 }
+  /* h1 {
+    font-size: 0.5vw;
+    line-height: 2;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  h2 {
+    line-height: 1;
+  } */
+
 }
 
 @media screen and (max-width: 749px) {
